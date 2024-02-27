@@ -746,7 +746,624 @@
     <script src="js/text-ani.js"></script>
 
 
+<!-- BY Krunal Vaghani - * {
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style: none !important;
+    font-family: 'Roboto';
+}
 
+
+
+.nav-item a {
+    font-size: 14px;
+    padding: 10px 5px !important;
+    font-weight: 600;
+    transition: all 0.5s;
+    position: relative;
+    margin: 0px 5px;
+    color: #373737 !important;
+    letter-spacing: 2px;
+}
+
+.nav-item a:hover {
+    color: #FF651C !important;
+}
+
+.nav-item a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: auto;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background: #FF651C;
+    transition: ease all 0.5s;
+
+}
+
+.navbar-nav>li>.nav-link:hover:after {
+    left: 0 !important;
+    right: auto !important;
+    width: 100% !important;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.head-menu {
+    position: sticky;
+    top: 0;
+    background-color: #fff !important;
+    z-index: 999;
+}
+
+/*================================== header ================================== */
+
+.home-section {
+    position: relative;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #FF651C;
+}
+
+.bg-gray {
+    background-color: rgba(254, 196, 72, 0.1);
+}
+
+.slider-section h6 {
+    font-weight: 600;
+    color: #373737;
+    letter-spacing: 3px;
+    text-transform: uppercase !important;
+    font-size: 16px;
+    margin: 0px 0px 30px;
+}
+
+.slider-section h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #373737;
+    margin: 0 0 35px;
+    line-height: 1;
+}
+
+#app {
+    text-align: center;
+    display: inline;
+    animation: textclip 2s linear infinite;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.slider-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.start-btn a {
+    background: #FF651C;
+    border-color: #FF651C;
+    color: #fff;
+    box-shadow: 6px 6px 0 -1px #373737;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.5s;
+    font-weight: 600;
+}
+
+.start-btn a:hover {
+    background: #373737;
+    border-color: #373737;
+    box-shadow: 5px 5px 0 -2px #FF651C;
+}
+
+/*================================== 1 section ================================== */
+
+.s-spc {
+    padding: 100px 0px;
+}
+
+.s-spc-2 {
+    padding-top: 100px;
+
+}
+
+.about-text h3 {
+    font-weight: 600;
+    color: #373737;
+    margin-bottom: 25px !important;
+    font-size: 35px;
+}
+
+.about-text p {
+    color: #555555;
+}
+
+.client div,
+.count {
+    color: #FF651C;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.client span {
+    color: #373737;
+    font-weight: 700;
+}
+
+/*================================== 2 section ================================== */
+
+.bg-image {
+    background-image: url(../img/bg-effect-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.title-text h3 span {
+    font-size: 46px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.feature-box-01 {
+    padding: 35px;
+    border: 2px solid #373737;
+    box-shadow: 0 0 0 0 #373737;
+    transition: ease all 0.35s;
+    display: flex;
+    z-index: 988;
+}
+
+.feature-box-01 .icon i {
+    width: 70px;
+    height: 70px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #373737;
+    background: #fff;
+    color: #373737;
+    font-size: 32px;
+}
+
+.icon i {
+    font-size: 20px;
+}
+
+.feature-content h5 {
+    font-size: 24px;
+    color: #373737;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.feature-content p {
+    color: #373737;
+
+}
+
+.feature-box-01:hover {
+    box-shadow: 5px 5px 0 0 #373737;
+}
+
+
+.bg-1 {
+    background-color: #9BD3D0;
+}
+
+.bg-2 {
+    background-color: #FEC447;
+}
+
+.bg-3 {
+    background-color: #FECCB5;
+}
+
+.bg-4 {
+    background-color: #92B5FF;
+}
+
+.bg-5 {
+    background-color: #C4D39B;
+}
+
+.bg-6 {
+    background-color: #D2CEFF;
+}
+
+/*================================== 3 section ================================== */
+
+.feature-box-02 {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #373737;
+    box-shadow: 0 0 0 0 #373737;
+    transition: ease all 0.35s;
+}
+
+.feature-box-02 .icon i {
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    color: #373737;
+    border: 2px solid #373737;
+    font-size: 30px;
+    display: flex;
+}
+
+.feature-box-02:hover {
+    box-shadow: 3px 3px 0 0 #373737;
+}
+
+.px-btn {
+    padding: 8px 20px;
+    border: 2px solid transparent;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    transition: ease all 0.5s;
+    display: inline-block;
+
+}
+
+.px-btn-theme2 {
+    background: #FEC448;
+    color: #fff;
+    color: #373737;
+    box-shadow: 5px 5px 0 -2px #FF651C;
+    font-weight: 700;
+}
+
+.px-btn.px-btn-theme2:hover {
+    background: #FF651C;
+    color: #373737;
+    box-shadow: 5px 5px 0 -2px #FEC448;
+    color: #fff;
+}
+
+
+/*================================== 4 section ================================== */
+
+.portfolio-img {
+    border: 2px solid #373737;
+    box-shadow: 0 0 0 0 #373737;
+    transition: ease all 0.35s;
+    position: relative;
+}
+
+.portfolio-img:hover {
+    box-shadow: 3px 3px 0 0 #373737;
+}
+
+.portfolio-text h6 {
+    margin-bottom: 18px;
+}
+
+.portfolio-text h6 span {
+    display: inline-block;
+    padding: 8px 20px;
+    background: rgba(255, 101, 28, 0.2);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 30px;
+}
+
+.portfolio-text h4 {
+    color: #373737;
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.portfolio-text p {
+    font-size: 14px;
+    color: #373737;
+}
+
+.View-btn a {
+    background: #FF651C;
+    border-color: #FF651C;
+    color: #fff;
+    box-shadow: 6px 6px 0 -1px #373737;
+    padding: 10px 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.5s;
+    font-weight: 600;
+}
+
+.View-btn a:hover {
+    background: #373737;
+    border-color: #373737;
+    box-shadow: 5px 5px 0 -2px #FF651C;
+}
+
+.flex-row-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+/*================================== footer ================================== */
+
+.bg-wooden {
+    background-color: #373737 !important;
+}
+
+.contact-form {
+    border: 2px solid #373737;
+    padding: 35px;
+    /* background: #fff; */
+    border-radius: 20px;
+}
+
+.contact-form h6 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+
+
+
+.form-group label {
+    font-size: 14px;
+    color: #fff;
+
+}
+
+.contact-form .form-control {
+    border: 1px solid #FF651C;
+    box-shadow: none;
+    padding: 0.575rem 0.75rem;
+}
+
+.form-group input {
+    color: #fff !important;
+    font-size: 14px;
+    background-color: transparent !important;
+
+}
+
+.form-group textarea {
+    font-size: 14px;
+    color: #fff;
+    background-color: transparent !important;
+
+}
+
+
+.contact-infos .icon {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    color: #373737;
+    justify-content: center;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+
+
+.contact-infos h5 {
+    font-size: 14px;
+    margin: 0 0 5px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.contact-infos p {
+    margin: 0;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+}
+
+/*================================== media query ================================== */
+
+
+@media (max-width:991px) {
+    .start-btn {
+        text-align: center;
+    }
+
+    .home-image {
+        display: none;
+    }
+
+    .img-s-1 {
+        width: 60%;
+        margin-bottom: 35px;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .s-btn {
+        justify-content: center;
+    }
+
+    .center-counter {
+        justify-content: center !important;
+        text-align: center;
+    }
+
+    .center-counter .client div {
+        justify-content: center !important;
+    }
+
+    .feature-box-01 {
+        padding: 20px;
+    }
+
+    .feature-content {
+        padding-left: 20px !important;
+    }
+
+    .feature-content h5 {
+        font-size: 18px;
+    }
+
+    .feature-content p {
+        font-size: 14px
+    }
+
+    .title-text h3 span {
+        justify-content: center;
+        display: flex;
+    }
+
+    .portfolio-text h4 {
+        font-size: 24px;
+    }
+
+    .portfolio-text p {
+        font-size: 12px;
+    }
+
+    .View-btn a {
+        font-size: 10px;
+    }
+}
+
+
+
+
+@media (max-width: 767px) {
+    .feature-box-01 {
+        padding: 30px;
+    }
+}
+
+
+@media (max-width:425px) {
+    .slider-section h1 {
+        font-size: 38px;
+    }
+
+    .about-text h3 {
+        font-size: 25px;
+    }
+
+    .about-text p {
+        font-size: 12px;
+    }
+
+    .feature-box-01 .icon i {
+        height: 60px;
+        font-size: 20px;
+        width: 60px;
+    }
+
+    .contact-form .lead {
+        font-size: 12px;
+    }
+
+    .contact-form .form-control {
+        padding: 7px 7px;
+    }
+
+    .send button {
+        padding: 7px 10px;
+        font-size: 10px;
+        font-weight: 500;
+    }
+}
+
+
+@media (max-width:375px) {
+    .navbar-brand img {
+        width: 70%;
+    }
+
+    .s-btn .start-btn a {
+        padding: 8px 16px;
+        font-size: 10px;
+    }
+
+    .client span {
+        font-size: 15px;
+    }
+
+    .feature-box-01 {
+        padding: 20px;
+    }
+
+    .feature-box-01 .icon i {
+        height: 40px;
+        width: 40px;
+
+    }
+
+    .feature-box-02 {
+        padding: 10px;
+
+    }
+
+    .feature-box-02 h6 {
+        font-size: 12px;
+    }
+
+    .feature-box-02 .icon i {
+        font-size: 20px;
+        width: 35px;
+        height: 35px;
+    }
+
+    .contact-infos .icon {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .contact-infos h5 {
+        font-size: 10px;
+    }
+
+    .contact-infos p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:320px) {
+    .feature-box-01 {
+        padding: 14px;
+    }
+
+    .feature-content p {
+        font-size: 12px;
+    }
+}
+
+
+/* by Krunal Vaghani - https://github.com/Krunal-Vaghani */ -->
 </body>
 
 </html>
